@@ -15,7 +15,7 @@ st.sidebar.text('Karol Navarro')
 st.sidebar.text('4O Programación')
 st.sidebar.text('Facultad de Ciencias Quimicas')
 st.sidebar.text('Universidad Autonoma de Chihuahua')
-st.sidebar.text('Docente: Jose Manuel Napoles Duarte)
+st.sidebar.text('Docente: Jose Manuel Napoles Duarte')
 if x:
   st.image('https://static.vecteezy.com/system/resources/previews/001/368/413/non_2x/glass-filled-with-water-and-a-carafe-in-the-background-photo.jpg')
 if f:
