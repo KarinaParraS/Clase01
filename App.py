@@ -1,17 +1,19 @@
 import streamlit as st
 
-st.title("AGUA POTABLE")
-
-col1,col2 = st.columns([10,10])
+st.title("Purificación del Agua")
 
 st.header('Diferencia entre el Agua de grifo y el Agua pura')
 st.write('El agua que obtenemos del grifo es considerada por organismos internacionales como potable. Sin embargo, que sea apta para consumo no quiere decir que sea agua pura, y este es el error que cometen muchas personas. El agua de grifo, aunque ha pasado por tratamientos previos para descontaminarla, recolecta otro tipo de impurezas en el camino')
+
+col1,col2 = st.columns([10,10])
+
 st.sidebar.button('Tipos de Filtros')
 
 if col2.button("Filtro de Carbon Activado"):
   st.write("Años de vida del filtro: ¡Un filtro puede llegar a durar hasta 10 años sin ningún tipo de problema con un cuidado adecuado! Y es que, además, el mantenimiento del filtro de carbón activo es tremendamente sencillo. Para limpiarlo solo necesitarás meterlo en el horno a una temperatura de 200 ºC")
   st.write("Efectividad: pueden atrapar el 99.97% de las partículas pequeñas de 0.3 micrones o más grandes, así como la mayoría de las partículas más grandes, especialmente las esporas.")
   st.write("Daños a la salud: Ciertos contaminantes no se eliminarán al usar un filtro de agua de carbón. Estos contaminantes incluyen minerales tóxicos, fluoruros, nitratos y una variedad de microorganismos que son dañinos para la salud")
+  st.write('¿Como funciona?: Uno de los métodos más populares en los hogares es el filtro de carbón activado. Este sistema se utiliza en distintos niveles, desde casas hasta grandes industrias. La razón de su popularidad es que el carbón, una vez sometido a altas temperaturas, se compacta y se generan pequeños agujeros, tan microscópicos que pueden retener hasta virus y bacterias que son invisibles a la vista. 
   st.image("https://www.aquaprof.es/wp/wp-content/uploads/2017/11/filtro-cabon-funcionamiento.jpg")
 
 d = col3,col4 = st.columns([7,7])
@@ -32,6 +34,7 @@ if col1.button("Filtro de Osmosis Inversa"):
   st.write("Años de vida del filtro: En equipos de calidad y bien calibrados en su diseño, la duración de la membrana viene a ser de entre 3 a 5 años. Es importante hacer los mantenimientos periódicos, siguiendo los consejos del fabricante.")
   st.write("Efectividad: es capaz de eliminar hasta el 99% de las sales disueltas (iones)")
   st.write("Daños a la salud: Una de las principales razones por las que no se recomienda beber agua purificada mediante ósmosis inversa es porque la eliminación de los minerales hace que el agua se vuelva ácida (a menudo muy por debajo de 7.0 pH). Beber agua ácida no ayuda a mantener un equilibrio saludable de pH en la sangre")
+  st.write('¿Como funciona?:El filtro por ósmosis inversa es un dispositivo que tiene un funcionamiento muy sencillo y resulta altamente eficaz. Consiste en pasar el agua con fuerza a través de una membrana semipermeable muy fina. Esta tiene la capacidad de retener cualquier impureza inorgánica, partículas y sustancias contaminantes como iones de calcio y magnesio que se encuentre en el agua y la endurecen. La membrana retiene los restos y solo logra traspasar el agua pura.') 
   st.image("https://www.homea.mx/Files/119914/Img/05/FILTRO-DE-AGUA-OSMOSIS-INVERSA-WHIRLPOOL-WK3901Q-zoom.jpg")
   st.image("https://www.iagua.es/sites/default/files/images/medium/osmosisinversa-ro-5.jpg")
 
