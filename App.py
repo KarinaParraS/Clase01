@@ -78,6 +78,15 @@ if col7.button('La importancia de la huella hidrica'):
   st.write("Nuestras decisiones cotidianas, aparentemente tan chiquitas e inocentes en el contexto nacional o global, tienen efectos multiplicativos, para bien o para mal. Un patrón responsable de consumo puede contribuir, litro a litro, a aminorar la competencia sobre los cada vez más escasos recursos hídricos.")
   st.image('https://1.bp.blogspot.com/-S7AtxDCxUko/YQL7geNvU3I/AAAAAAAAEaU/ejX2N9jUP6ooyrWJnGj-uKbuzBlKO2PMACLcBGAsYHQ/w1200-h630-p-k-no-nu/Imagen3.jpg')
 
+import pandas as pd
+import numpy as np
+
+df = pd.DataFrame(
+   np.random.randn(10, 5),
+   columns=('col %d' % i for i in range(5)))
+
+st.table(df)
+
 st.sidebar.image('https://rotoplas.com.mx/rtp-resources/categorias/rotoplas_mx_soluciones_purificacion.png')
 
 st.sidebar.caption('Desarolladores:')
