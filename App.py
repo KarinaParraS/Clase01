@@ -88,6 +88,15 @@ st.sidebar.subheader('Nuestro Propósito')
 st.sidebar.write('Describir los diferentes tipos de filtros residenciales para una mejor elección del civil.')
 st.sidebar.image('https://rotoplas.com.mx/rtp-resources/categorias/rotoplas_mx_soluciones_purificacion.png')
 
+genre = st.radio(
+    "What's your favorite movie genre",
+    ('Comedy', 'Drama', 'Documentary'))
+
+if genre == 'Comedy':
+    st.write('You selected comedy.')
+else:
+    st.write("You didn't select comedy.")
+
 st.sidebar.caption('Desarolladores:')
 st.sidebar.caption('Andrea Karina Parra Salazar')
 st.sidebar.caption('Vanessa Guerra Montañez')
