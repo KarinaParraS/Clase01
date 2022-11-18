@@ -37,7 +37,7 @@ if col1.button("Filtro de Osmosis Inversa"):
 
 st.header('Huella hídrica')
 
- col6, col7 = st.columns([6,6])
+col6, col7 = st.columns([6,6])
 
 if col6.button('¿Como se define una huella Hidrica?'):
   st.write("Es un indicador de toda el agua que utilizamos en nuestra vida diaria; para producir nuestra comida, en procesos industriales y generación de energía, así como la que ensuciamos y contaminamos a través de esos mismos procesos.")
