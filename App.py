@@ -49,3 +49,15 @@ if col7.button('La importancia de la huella hidrica'):
   st.write("Los hábitos alimenticios, patrones de consumo y estilo de vida como el transporte, tecnología, aficiones son factores que determinan la magnitud de nuestra huella hídrica individual. Hay que considerar que, invariablemente, la cantidad de agua que se utilizó en un proceso fue a costa de otro posible uso, o del agua que requieren los ecosistemas.")
   st.write("Nuestras decisiones cotidianas, aparentemente tan chiquitas e inocentes en el contexto nacional o global, tienen efectos multiplicativos, para bien o para mal. Un patrón responsable de consumo puede contribuir, litro a litro, a aminorar la competencia sobre los cada vez más escasos recursos hídricos.")
 st.image('https://1.bp.blogspot.com/-S7AtxDCxUko/YQL7geNvU3I/AAAAAAAAEaU/ejX2N9jUP6ooyrWJnGj-uKbuzBlKO2PMACLcBGAsYHQ/w1200-h630-p-k-no-nu/Imagen3.jpg')
+
+
+st.sidebar.image('https://www.fundacionaquae.org/wp-content/uploads/2020/04/Qu%C3%A9-es-el-agua-3.jpg')
+st.sidebar.caption('Participantes:')
+st.sidebar.caption('Vanessa Guerra')
+st.sidebar.caption('Ashlie Salgueiro')
+st.sidebar.caption('Karina Parra')
+st.sidebar.caption('Karol Navarro')
+st.sidebar.caption('4O Programación')
+st.sidebar.caption('Facultad de Ciencias Químicas')
+st.sidebar.caption('Universidad Autónoma de Chihuahua')
+st.sidebar.caption('Docente: Jose Manuel Napoles Duarte')
