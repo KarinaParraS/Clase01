@@ -89,13 +89,11 @@ st.sidebar.write('Describir los diferentes tipos de filtros residenciales para u
 st.sidebar.image('https://rotoplas.com.mx/rtp-resources/categorias/rotoplas_mx_soluciones_purificacion.png')
 
 genre = st.radio(
-    "What's your favorite movie genre",
-    ('Comedy', 'Drama', 'Documentary'))
+    "Costos",
+    ('Filtro Ósmosis Inversa', 'Filtro Doble', 'Filtro de carbón','Filtro Triple'))
 
-if genre == 'Comedy':
-    st.write('You selected comedy.')
-else:
-    st.write("You didn't select comedy.")
+if genre == 'Filtro Ósmosis Inversa':
+    st.write('$4,950')
 
 st.sidebar.caption('Desarolladores:')
 st.sidebar.caption('Andrea Karina Parra Salazar')
