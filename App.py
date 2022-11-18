@@ -16,21 +16,6 @@ def add_bg_from_url():
          unsafe_allow_html=True)
 add_bg_from_url() 
 
-with st.container():
-  st.subheader("TIPOS DE FILTROS")
-
-with st.container():
-  st.write("---")
-  st.header("HUELLA HIDRICA")
-  st.write("##")
-  image_column, text_column= st.columns((1,2))
-  with image_column:
-    st.imagest.image('https://sites.google.com/site/lahuellahidrica/_/rsrc/1432694053802/la-huella-hidrica-en-mexico/Imagen1.jpg')
-  with text_column:
-    st.subheader("IMPORTANCIA")
-    st.write("Los hábitos alimenticios, patrones de consumo y estilo de vida como el transporte, tecnología, aficiones son factores que determinan la magnitud de nuestra huella hídrica individual. Hay que considerar que, invariablemente, la cantidad de agua que se utilizó en un proceso fue a costa de otro posible uso, o del agua que requieren los ecosistemas.")
-    st.write("Nuestras decisiones cotidianas, aparentemente tan chiquitas e inocentes en el contexto nacional o global, tienen efectos multiplicativos, para bien o para mal. Un patrón responsable de consumo puede contribuir, litro a litro, a aminorar la competencia sobre los cada vez más escasos recursos hídricos.")
-
 
     st.imagest.image('https://sites.google.com/site/lahuellahidrica/_/rsrc/1432694053802/la-huella-hidrica-en-mexico/Imagen1.jpg')
 st.title("Purificación del Agua")
