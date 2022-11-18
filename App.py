@@ -10,7 +10,7 @@ col1,col2 = st.columns([10,10])
 st.sidebar.button('Tipos de Filtros')
 
 if col2.button("Filtro de Carbon Activado"):
-  st.write("Años de vida del filtro: ¡Un filtro puede llegar a durar hasta 10 años sin ningún tipo de problema con un cuidado adecuado! Y es que, además, el mantenimiento del filtro de carbón activo es tremendamente sencillo. Para limpiarlo solo necesitarás meterlo en el horno a una temperatura de 200 ºC")
+  st.write("Años de vida del filtro: Un filtro puede llegar a durar hasta 10 años sin ningún tipo de problema con un cuidado adecuado, Y es que, además, el mantenimiento del filtro de carbón activo es tremendamente sencillo. Para limpiarlo solo necesitarás meterlo en el horno a una temperatura de 200 ºC")
   st.write("Efectividad: pueden atrapar el 99.97% de las partículas pequeñas de 0.3 micrones o más grandes, así como la mayoría de las partículas más grandes, especialmente las esporas.")
   st.write("Daños a la salud: Ciertos contaminantes no se eliminarán al usar un filtro de agua de carbón. Estos contaminantes incluyen minerales tóxicos, fluoruros, nitratos y una variedad de microorganismos que son dañinos para la salud")
   st.write('¿Como funciona?: Uno de los métodos más populares en los hogares es el filtro de carbón activado. Este sistema se utiliza en distintos niveles, desde casas hasta grandes industrias. La razón de su popularidad es que el carbón, una vez sometido a altas temperaturas, se compacta y se generan pequeños agujeros, tan microscópicos que pueden retener hasta virus y bacterias que son invisibles a la vista.')
