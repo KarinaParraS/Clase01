@@ -96,9 +96,9 @@ if genre == 'Filtro Ósmosis Inversa':
     st.write('$4,950')
 if genre == 'Filtro Doble':
     st.write('$3,750')
-    if genre == 'Filtro de carbón':
+if genre == 'Filtro de carbón':
     st.write('$4,650')
-    if genre == 'Filtro Triple':
+if genre == 'Filtro Triple':
     st.write('$7,500')
     
 st.sidebar.caption('Desarolladores:')
