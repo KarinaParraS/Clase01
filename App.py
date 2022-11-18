@@ -82,7 +82,7 @@ if col7.button('La importancia de la huella hidrica'):
   st.write("Nuestras decisiones cotidianas, aparentemente tan chiquitas e inocentes en el contexto nacional o global, tienen efectos multiplicativos, para bien o para mal. Un patrón responsable de consumo puede contribuir, litro a litro, a aminorar la competencia sobre los cada vez más escasos recursos hídricos.")
   st.image('https://1.bp.blogspot.com/-S7AtxDCxUko/YQL7geNvU3I/AAAAAAAAEaU/ejX2N9jUP6ooyrWJnGj-uKbuzBlKO2PMACLcBGAsYHQ/w1200-h630-p-k-no-nu/Imagen3.jpg')
 
-st.sidebar.subheader('Nuestra Próblematica')
+st.sidebar.subheader('Nuestra Problemática')
 st.sidebar.write('La calidad deficiente del agua potable.')
 st.sidebar.subheader('Nuestro Propósito')
 st.sidebar.write('Describir los diferentes tipos de filtros residenciales para una mejor elección del civil.')
