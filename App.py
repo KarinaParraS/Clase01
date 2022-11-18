@@ -23,10 +23,8 @@ if col3.button("Filtro Doble"):
 
 if col4.button("Filtros Triple"):
   st.write("Años de vida: tienen un periodo de vida bastante extendido, incluso puede llegar a durar algunas décadas, pero el cartucho interno que es el que hace todo el trabajo de purificación, sí que tiene un periodo de vida más limitado de aproximadamente 1 año.")
-
-st.write("Efectividad: El filtro triple filtrado tecnología de vanguardia usada en diálisis para desinfectar con eficiencia el 100% de microbios ya sean bacterias (0.2 a 2 micras de tamaño) parásitos, protozoarios, quistes de amibas. ")
-
-st.write("Daños a la salud: Si el filtro no se controla puede empezar a crecer moho, sobre todo en un lugar húmedo. No sólo el agua tendrá mal sabor, sino que lo ingerirás. La ingestión puede causar dolores de cabeza, secreción nasal, sinusitis, exantema, diarrea y posibles vómitos.")
+  st.write("Efectividad: El filtro triple filtrado tecnología de vanguardia usada en diálisis para desinfectar con eficiencia el 100% de microbios ya sean bacterias (0.2 a 2 micras de tamaño) parásitos, protozoarios, quistes de amibas. ")
+  st.write("Daños a la salud: Si el filtro no se controla puede empezar a crecer moho, sobre todo en un lugar húmedo. No sólo el agua tendrá mal sabor, sino que lo ingerirás. La ingestión puede causar dolores de cabeza, secreción nasal, sinusitis, exantema, diarrea y posibles vómitos.")
   st.image("https://m.media-amazon.com/images/I/71Vn5M1CV1L._AC_UF894,1000_QL80_.jpg")
 
 
