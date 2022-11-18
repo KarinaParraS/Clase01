@@ -54,7 +54,7 @@ if col4.button("Filtros Triple"):
   st.write("El filtro triple filtrado tecnología de vanguardia usada en diálisis para desinfectar con eficiencia el 100% de microbios ya sean bacterias (0.2 a 2 micras de tamaño) parásitos, protozoarios, quistes de amibas. ")
   st.subheader('Daños a la salud:')
   st.write("Si el filtro no se controla puede empezar a crecer moho, sobre todo en un lugar húmedo. No sólo el agua tendrá mal sabor, sino que lo ingerirás. La ingestión puede causar dolores de cabeza, secreción nasal, sinusitis, exantema, diarrea y posibles vómitos.")
-  st.image("https://m.media-amazon.com/images/I/71Vn5M1CV1L._AC_UF894,1000_QL80_.jpg")
+  st.image("https://cdn.shopify.com/s/files/1/0651/2125/5645/products/triple2.jpg")
 
 
 if col1.button("Filtro de Osmosis Inversa"):
