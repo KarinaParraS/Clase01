@@ -2,12 +2,13 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+st.set_page_config(page_title="PURIFICACION DEL AGUA")
 def add_bg_from_url():
     st.markdown(
          f"""
          <style>
          .stApp {{
-             background-image: url("https://gifimage.net/wp-content/uploads/2017/09/animated-water-gif-10.gif");
+             background-image: url("https://www.kibrispdr.org/data/1790/moving-water-background-gif-4.gif");
              background-attachment: fixed;
              background-size: cover
          }}
