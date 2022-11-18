@@ -5,7 +5,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://cdn.pixabay.com/photo/2019/04/24/11/27/flowers-4151900_960_720.jpg");
+             background-image: url("https://acegif.com/wp-content/uploads/gifs/water-43.gif");
              background-attachment: fixed;
              background-size: cover
          }}
