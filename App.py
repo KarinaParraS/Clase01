@@ -5,7 +5,7 @@ st.title("AGUA POTABLE")
 col1,col2 = st.columns([10,10])
 
   
- st.sidebar.button('Tipos de Filtros')
+st.sidebar.button('Tipos de Filtros')
 
  if col2.button("Filtro de Carbon Activado"):
    st.write('¿Como Funciona un filtro?')
