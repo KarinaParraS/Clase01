@@ -21,7 +21,7 @@ with st.container():
   st.write("##")
   image_column, text_column= st.columns((1,2))
   with image_column:
-    st.imagest.image(“https://sites.google.com/site/lahuellahidrica/_/rsrc/1432694053802/la-huella-hidrica-en-mexico/Imagen1.jpg”)
+    st.imagest.image('https://sites.google.com/site/lahuellahidrica/_/rsrc/1432694053802/la-huella-hidrica-en-mexico/Imagen1.jpg')
 st.title("Purificación del Agua")
 st.write('El consumo de agua de mala calidad o agua contaminada, ocasiona enfermedades gastrointestinales, diarreas agudas y otras enfermedades que podrían incluso terminar en una tifoidea o hepatitis, esa es la principal importancia del agua potable. El 70% del planeta Tierra es agua, se calcula que del total de esa agua, el 97% es agua salada, y el 2.5% es considerada dulce. Sin embargo, el 90% de agua dulce se encuentra en la Antártida, y solo el 0.5% de agua dulce se encuentra en los depósitos subterráneos y el 0.01% en ríos y lagos.')
 st.subheader('Diferencia entre el Agua de grifo y el Agua pura')
