@@ -15,12 +15,23 @@ def add_bg_from_url():
          """,
          unsafe_allow_html=True)
 add_bg_from_url() 
+
+with st.container():
+  st.subheader("TIPOS DE FILTROS")
+
 with st.container():
   st.write("---")
   st.header("HUELLA HIDRICA")
   st.write("##")
   image_column, text_column= st.columns((1,2))
   with image_column:
+    st.imagest.image(“https://sites.google.com/site/lahuellahidrica/_/rsrc/1432694053802/la-huella-hidrica-en-mexico/Imagen1.jpg”)
+  with text_column:
+    st.subheader("IMPORTANCIA")
+    st.write("Los hábitos alimenticios, patrones de consumo y estilo de vida como el transporte, tecnología, aficiones son factores que determinan la magnitud de nuestra huella hídrica individual. Hay que considerar que, invariablemente, la cantidad de agua que se utilizó en un proceso fue a costa de otro posible uso, o del agua que requieren los ecosistemas.")
+    st.write("Nuestras decisiones cotidianas, aparentemente tan chiquitas e inocentes en el contexto nacional o global, tienen efectos multiplicativos, para bien o para mal. Un patrón responsable de consumo puede contribuir, litro a litro, a aminorar la competencia sobre los cada vez más escasos recursos hídricos.")
+
+
     st.imagest.image('https://sites.google.com/site/lahuellahidrica/_/rsrc/1432694053802/la-huella-hidrica-en-mexico/Imagen1.jpg')
 st.title("Purificación del Agua")
 st.write('El consumo de agua de mala calidad o agua contaminada, ocasiona enfermedades gastrointestinales, diarreas agudas y otras enfermedades que podrían incluso terminar en una tifoidea o hepatitis, esa es la principal importancia del agua potable. El 70% del planeta Tierra es agua, se calcula que del total de esa agua, el 97% es agua salada, y el 2.5% es considerada dulce. Sin embargo, el 90% de agua dulce se encuentra en la Antártida, y solo el 0.5% de agua dulce se encuentra en los depósitos subterráneos y el 0.01% en ríos y lagos.')
