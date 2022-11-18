@@ -8,7 +8,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://www.kibrispdr.org/data/1790/moving-water-background-gif-4.gif");
+             background-image: url("https://acegif.com/wp-content/uploads/gifs/water-22.gif");
              background-attachment: fixed;
              background-size: cover
          }}
