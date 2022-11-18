@@ -5,15 +5,13 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://acegif.com/wp-content/uploads/gifs/water-43.gif");
+             background-image: url("http://tomasoni.files.wordpress.com/2009/12/agua.gif");
              background-attachment: fixed;
              background-size: cover
          }}
          </style>
          """,
-         unsafe_allow_html=True
-     )
-
+         unsafe_allow_html=True)
 add_bg_from_url() 
 st.title("Purificación del Agua")
 st.write('El consumo de agua de mala calidad o agua contaminada, ocasiona enfermedades gastrointestinales, diarreas agudas y otras enfermedades que podrían incluso terminar en una tifoidea o hepatitis, esa es la principal importancia del agua potable. El 70% del planeta Tierra es agua, se calcula que del total de esa agua, el 97% es agua salada, y el 2.5% es considerada dulce. Sin embargo, el 90% de agua dulce se encuentra en la Antártida, y solo el 0.5% de agua dulce se encuentra en los depósitos subterráneos y el 0.01% en ríos y lagos.')
