@@ -4,7 +4,6 @@ st.title("AGUA POTABLE")
 
 col1,col2 = st.columns([10,10])
 
-a = st.sidebar.button
   
   b = st.sidebar.button('Tipos de Filtros')
 
