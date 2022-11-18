@@ -5,7 +5,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("http://tomasoni.files.wordpress.com/2009/12/agua.gif");
+             background-image: url("https://gifimage.net/wp-content/uploads/2017/09/animated-water-gif-10.gif");
              background-attachment: fixed;
              background-size: cover
          }}
