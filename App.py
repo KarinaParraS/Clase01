@@ -94,7 +94,13 @@ genre = st.radio(
 
 if genre == 'Filtro Ósmosis Inversa':
     st.write('$4,950')
-
+if genre == 'Filtro Doble':
+    st.write('$3,750')
+    if genre == 'Filtro de carbón':
+    st.write('$4,650')
+    if genre == 'Filtro Triple':
+    st.write('$7,500')
+    
 st.sidebar.caption('Desarolladores:')
 st.sidebar.caption('Andrea Karina Parra Salazar')
 st.sidebar.caption('Vanessa Guerra Montañez')
