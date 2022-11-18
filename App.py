@@ -40,7 +40,7 @@ st.header('Huella hídrica')
 
 col6, col7 = st.columns([6,6])
 
-st.image(“https://1.bp.blogspot.com/-S7AtxDCxUko/YQL7geNvU3I/AAAAAAAAEaU/ejX2N9jUP6ooyrWJnGj-uKbuzBlKO2PMACLcBGAsYHQ/w1200-h630-p-k-no-nu/Imagen3.jpg”)
+st.image('https://1.bp.blogspot.com/-S7AtxDCxUko/YQL7geNvU3I/AAAAAAAAEaU/ejX2N9jUP6ooyrWJnGj-uKbuzBlKO2PMACLcBGAsYHQ/w1200-h630-p-k-no-nu/Imagen3.jpg')
 
 if col6.button('¿QUÉ ES'):
   st.write("Es un indicador de toda el agua que utilizamos en nuestra vida diaria; para producir nuestra comida, en procesos industriales y generación de energía, así como la que ensuciamos y contaminamos a través de esos mismos procesos.")
